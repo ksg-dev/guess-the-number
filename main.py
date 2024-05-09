@@ -1,4 +1,5 @@
 import random
+from art import logo
 
 #Number Guessing Game Objectives:
 
@@ -13,6 +14,7 @@ import random
 
 def main():
     target = random.randint(1,100)
+    print(logo)
     print("Welcome to the Number Guessing Game!")
     print("I'm thinking of a number betwween 1 and 100.")
     difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
